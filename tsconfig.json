@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./.tsbuild/",
+    "rootDir": ".",
+    "sourceMap": false,
+    "target": "es2019",
+    "module": "commonjs",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "types": ["node", "@wdio/sync", "@wdio/jasmine-framework"]
+  },
+  "include": ["./test/**/*.ts"],
+  "exclude": ["node_modules"]
+}
